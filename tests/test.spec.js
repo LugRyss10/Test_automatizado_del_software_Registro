@@ -85,7 +85,7 @@ describe("CRUD", () =>
             await driver.findElement(By.className("btn btn-primary")).click();
             await driver.sleep(2000);
             await driver.findElement(By.id("boton-cancelar")).click();
-            await driver.sleep(2000);
+            await driver.sleep(5000);
             
 
             //prueba numero 17: boton de imprimir
